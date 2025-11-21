@@ -13,3 +13,41 @@
 .externalNativeBuild
 .cxx
 local.properties
+/build
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.keystore
+*.jks
+*.key
+*.pem
+
+# Logs & Temporary files
+*.log
+*.temp
+
+# Android specific
+captures/
+outputs/
+navigation.json
+*.apk
+*.aab
+
+# Kotlin
+**/kotlin/.*
+
+# Jetpack Compose
+compose-metrics/
+compose-reports/
+
+# OS files
+.DS_Store
+Thumbs.db
